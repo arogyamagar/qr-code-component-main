@@ -1,0 +1,45 @@
+.container{
+    background: hsl(212, 45%, 89%);
+    width: 85%;
+    height: 475px;
+    padding-top: 50px;
+    padding-bottom: -10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 60px auto 60px auto;
+    box-shadow: 10px 10px 5px hsl(212deg 45% 89%);
+}
+
+
+.wrap{
+    background-color: hsl(0, 0%, 100%);
+    width: 210px;
+    height: 350px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    flex-wrap: nowrap;
+    padding: 12px;
+    padding-bottom: 30px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 3px hsl(212deg 45% 89%);
+}
+
+.qr__image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.wrap h1{
+    text-align: center;
+}
+
+.wrap p{
+    text-align: center;
+}
